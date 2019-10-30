@@ -33,7 +33,7 @@ from selenium.webdriver.support.ui import Select
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
 
-dr = webdriver.Chrome(executable_path = './chromedriver_win32/chromedriver' , chrome_options= options)
+dr = webdriver.Chrome(executable_path = 'chromedriver' , chrome_options= options)
 
 f = Figlet(font='slant')
 print(f.renderText('BY : DEEPLOGIX'))
