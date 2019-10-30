@@ -33,6 +33,8 @@ from selenium.webdriver.support.ui import Select
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
 options.add_argument('--headless')
+options.add_argument('--disable-dev-shm-usage')
+
 
 dr = webdriver.Chrome(executable_path = './chromedriver' , chrome_options= options)
 
